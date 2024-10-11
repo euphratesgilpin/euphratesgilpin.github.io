@@ -1,0 +1,295 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: rgb(255, 133, 133); 
+}
+
+/* STYLE TEXT */
+
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+body, html {
+    height: 100%;
+		font-family: Poppins;
+}
+
+
+/*hero image  */
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.616)), url("assets/girlstreamer2.jpg");
+
+  /* Set a specific height */
+  height: 75%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	z-index: -1;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+	padding: 1em;
+	margin: 1em;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+	font-family: Poppins;
+}
+
+.hero-p {
+	padding: 1em;
+}
+
+
+#fact {
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	margin: 0.5em;
+}
+
+.button1:hover {
+	cursor: pointer;
+}
+
+#facts {
+	font-size: 20px;
+}
+
+/* end of section */
+
+
+/* nav bar */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(255, 133, 133);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+	font-family: Poppins;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(209, 157, 157);
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(212, 105, 105);
+  color: white;
+}
+
+div.topnav {
+	height: 54px;
+}
+
+
+/*fix home screen nav */
+
+.topnav1 a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+	font-family: Poppins;
+}
+
+.topnav1 a:hover {
+  background-color: rgb(189, 189, 189);
+  color: white;
+}
+
+.topnav1 a.active {
+  background-color: rgb(70, 70, 70);
+  color: white;
+}
+
+div.topnav1 {
+	height: 0px;
+}
+/*end nav bar */
+
+/*more nav bar */
+
+
+
+
+
+
+
+/* main */
+.facts {
+	text-align: center;
+	padding: 0.5em;
+	margin: 0.5em;
+	font-family: Poppins;
+	color: white;
+}
+
+.button {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	
+}
+
+#button1 {
+	border-radius: 20%;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	padding: 0.5em;
+	background-color: lightskyblue;
+	font-family: Poppins;
+}
+
+
+
+/* take action page */
+#hta {
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+	font-family: Poppins;
+}
+
+
+
+#nn {
+	max-width: 23em;
+	margin-left: 1em;
+	float: left;
+	font-family: Poppins;
+}
+
+#textta {
+	float: right;
+	padding: 1em;
+	margin: 1em;
+	font-family: Poppins;
+}
+
+.tta {
+	color: white;
+	text-align: justify;
+	margin: 1em;
+	font-family: Poppins;
+}
+
+.btakea {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url("assets/pinkgrad2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+
+
+
+/* blog page */
+#hb {
+	text-align: center;
+	color: white;
+	font-family: Poppins;
+}
+
+#blogtext {
+	font-family: Poppins;
+	color: white;
+	size: 12px;
+	margin: 3em;
+	padding: 2em;
+	text-align: justify;
+}
+
+.bt {
+	margin: 1em;
+}
+
+#sub {
+	font-size: 12px;
+	text-align: left;
+	margin-left: 1em;
+	margin-top: 0em;
+}
+
+
+.bbody {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url("assets/pinkpc1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+
+
+/* more page */
+#hm {
+	color: white;
+	text-align: center;
+	font-family: Poppins;
+	text-decoration: underline;
+}
+
+#hhm {
+	font-family: Poppins;
+	color: white;
+	text-align: center;
+}
+
+
+
+.fcc {
+	font-family: Poppins;
+}
+
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 1em; /* Remove padding */
+  margin: 1em; /* Remove margins */
+}
+
+ul li {
+  border: 1px solid rgb(255, 121, 121); /* Add a thin border to each list item */
+  margin-top: 0px; /* Prevent double borders with -1px */
+  background-color: rgb(255, 183, 183); /* Add a background color */
+  padding: 12px; /* Add some padding */
+	text-align: center;
+	font-family: Poppins;
+}
+
+.mbody {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.308)), url("assets/pinkgrad.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
