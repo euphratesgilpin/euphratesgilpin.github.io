@@ -186,14 +186,14 @@ div.topnav1 {
 
 #cv1 {
 	max-width: 40em;
-	margin-left: 10em;
+	margin-left: 5em;
 	float: left;
 	font-family: Poppins;
 }
 
 #cv2 {
 	max-width: 40em;
-	margin-right: 10em;
+	margin-right: 5em;
 	float: right;
 	font-family: Poppins;
 }
@@ -222,25 +222,13 @@ div.topnav1 {
 
 
 
-/* blog page */
+/* resume page */
 #hb {
 	text-align: center;
 	color: white;
 	font-family: Poppins;
 }
 
-#blogtext {
-	font-family: Poppins;
-	color: white;
-	size: 12px;
-	margin: 3em;
-	padding: 2em;
-	text-align: justify;
-}
-
-.bt {
-	margin: 1em;
-}
 
 #sub {
 	font-size: 12px;
