@@ -184,10 +184,17 @@ div.topnav1 {
 
 
 
-#nn {
-	max-width: 23em;
+#cv1 {
+	max-width: 300em;
 	margin-left: 1em;
 	float: left;
+	font-family: Poppins;
+}
+
+#cv2 {
+	max-width: 300em;
+	margin-left: 1em;
+	float: right;
 	font-family: Poppins;
 }
 
