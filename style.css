@@ -185,15 +185,15 @@ div.topnav1 {
 
 
 #cv1 {
-	max-width: 300em;
-	margin-left: 1em;
+	max-width: 150em;
+	margin-left: 20em;
 	float: left;
 	font-family: Poppins;
 }
 
 #cv2 {
-	max-width: 300em;
-	margin-left: 1em;
+	max-width: 150em;
+	margin-right: 20em;
 	float: right;
 	font-family: Poppins;
 }
