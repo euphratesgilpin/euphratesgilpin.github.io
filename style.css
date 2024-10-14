@@ -28,7 +28,7 @@ body, html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.616)), url("images/euphrates.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.616)), url("images/euphrates.jpeg");
 
   /* Set a specific height */
   height: 75%;
@@ -185,14 +185,14 @@ div.topnav1 {
 
 
 #cv1 {
-	max-width: 38em;
+	max-width: 42em;
 	margin-left: 1em;
 	float: left;
 	font-family: Poppins;
 }
 
 #cv2 {
-	max-width: 38em;
+	max-width: 42em;
 	margin-right: 1em;
 	float: right;
 	font-family: Poppins;
