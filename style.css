@@ -228,8 +228,17 @@ div.topnav1 {
 
 
 
-/* take action page */
+
+
+/* resume page */
 #hta {
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+	font-family: Poppins;
+}
+
+#dl {
 	text-align: center;
 	color: white;
 	text-decoration: underline;
@@ -252,25 +261,12 @@ div.topnav1 {
 	font-family: Poppins;
 }
 
-#textta {
-	float: right;
-	padding: 1em;
-	margin: 1em;
-	font-family: Poppins;
-}
-
-.tta {
-	color: white;
-	text-align: justify;
-	margin: 1em;
-	font-family: Poppins;
-}
-
 .btakea {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url("assets/pinkgrad2.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+
 
 
 
@@ -301,7 +297,7 @@ div.topnav1 {
 
 
 
-/* more page */
+/* contact page */
 #hm {
 	color: white;
 	text-align: center;
@@ -324,8 +320,8 @@ div.topnav1 {
 
 ul {
   list-style-type: none; /* Remove bullets */
-  padding: 1em; /* Remove padding */
-  margin: 1em; /* Remove margins */
+  padding: 30em; /* Remove padding */
+  margin: 15em; /* Remove margins */
 }
 
 ul li {
