@@ -42,4 +42,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     target.textContent = ""; // clear first
     type();
+
+    const text2 = "Computer Science Student and lifelong Gamer";
+    const target2 = document.querySelector(".hero p");
+    let i2 = 0;
+
+    function type() {
+        if (i2 < text2.length) {
+            target2.textContent += text2.charAt(i2);
+            i2++;
+            setTimeout(type, 100);
+        }
+    }
+    target2.textContent = ""; // clear first
+    type();
 });
