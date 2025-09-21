@@ -43,17 +43,24 @@ document.addEventListener("DOMContentLoaded", () => {
     target.textContent = ""; // clear first
     type();
 
-    const text2 = "Computer Science Student and lifelong Gamer";
-    const target2 = document.querySelector(".hero p");
-    let i2 = 0;
+
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const text = "Computer Science Student and lifelong Gamer";
+    const target = document.querySelector(".hero p");
+    let i = 0;
 
     function type() {
-        if (i2 < text2.length) {
-            target2.textContent += text2.charAt(i2);
-            i2++;
+        if (i < text2.length) {
+            target2.textContent += text.charAt(i);
+            i++;
             setTimeout(type, 100);
         }
     }
-    target2.textContent = ""; // clear first
+
+    target.textContent = ""; // clear first
     type();
+
 });
