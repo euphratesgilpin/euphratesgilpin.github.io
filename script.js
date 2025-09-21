@@ -45,22 +45,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 });
-
-document.addEventListener("DOMContentLoaded", () => {
-
-    const text = "Computer Science Student and lifelong Gamer";
-    const target = document.querySelector(".hero p");
-    let i = 0;
-
-    function type() {
-        if (i < text2.length) {
-            target2.textContent += text.charAt(i);
-            i++;
-            setTimeout(type, 100);
-        }
-    }
-
-    target.textContent = ""; // clear first
-    type();
-
-});
