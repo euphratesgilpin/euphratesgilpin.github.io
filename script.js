@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     const text = "Euphrates Gilpin";
-    const target = document.querySelector(".hero h1");
+    const target = document.querySelector(".hero-content h1");
     let i = 0;
 
     function type() {
@@ -19,51 +19,49 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-const bgCanvas = document.getElementById("bg-canvas");
-const bgCtx = bgCanvas.getContext("2d");
-const noiseCanvas = document.getElementById("noise-canvas");
-const noiseCtx = noiseCanvas.getContext("2d");
-
+const canvas = document.getElementById("bg-canvas");
+const ctx = canvas.getContext("2d");
 let width, height;
 
 function resize() {
-    width = bgCanvas.width = noiseCanvas.width = window.innerWidth;
-    height = bgCanvas.height = noiseCanvas.height = window.innerHeight;
+    width = canvas.width = window.innerWidth;
+    height = canvas.height = window.innerHeight;
 }
 window.addEventListener("resize", resize);
 resize();
 
-// Background animation
 let t = 0;
-function drawBackground() {
+
+function draw() {
     t += 0.005;
 
-    bgCtx.clearRect(0, 0, width, height);
+    ctx.clearRect(0, 0, width, height);
 
     // Gradient background
-    const grad = bgCtx.createLinearGradient(0, 0, width, height);
+    const grad = ctx.createLinearGradient(0, 0, width, height);
     grad.addColorStop(0, "#0a0a0a");
     grad.addColorStop(1, "#1a1a2e");
-    bgCtx.fillStyle = grad;
-    bgCtx.fillRect(0, 0, width, height);
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, width, height);
 
-    // Wavy organic lines
+    // Wavy lines
     for (let i = 0; i < 6; i++) {
-        bgCtx.beginPath();
-        bgCtx.moveTo(0, height / 2);
+        ctx.beginPath();
+        ctx.moveTo(0, height / 2);
 
         for (let x = 0; x <= width; x += 20) {
             const y =
                 height / 2 +
                 Math.sin(x * 0.002 + t * (1 + i * 0.2)) * (50 + i * 15);
-            bgCtx.lineTo(x, y);
+            ctx.lineTo(x, y);
         }
 
-        bgCtx.strokeStyle = `rgba(255,255,255,${0.05 + i * 0.02})`;
-        bgCtx.lineWidth = 1.5;
-        bgCtx.stroke();
+        ctx.strokeStyle = `rgba(255,255,255,${0.05 + i * 0.02})`;
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
     }
 
-    requestAnimationFrame(drawBackground);
+    requestAnimationFrame(draw);
 }
-drawBackground();
+
+draw();
