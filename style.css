@@ -45,12 +45,14 @@ html, body {
     font-size: 3.5rem;
     margin-bottom: 0.5rem;
     letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero-content p {
     font-size: 1.4rem;
     margin-bottom: 1.5rem;
     opacity: 0.85;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn {
@@ -60,6 +62,7 @@ html, body {
     padding: 0.75rem 1.5rem;
     border-radius: 50px;
     transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
 }
 .btn:hover {
     background: white;
