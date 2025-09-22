@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <!-- link the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
@@ -17,45 +18,44 @@
     <script src="/script.js" defer></script>
 </head>
 
-<!--<body>-->
-
-<!--<div class="topnav1">-->
-<!--    &lt;!&ndash; nav bar &ndash;&gt;-->
-<!--    <a class="active" href="index.html">Home</a>-->
-<!--    <a href="projects.html">Projects</a>-->
-<!--    <a href="about.html">About</a>-->
-<!--</div>-->
-
-<!--<section class="hero">-->
-<!--    <div>-->
-<!--        <h1>Hey, I'm Euphrates</h1>-->
-<!--        <p>Computer Science Student and lifelong Gamer</p>-->
-<!--        <a href="projects.html" class="button">See My Work</a>-->
-<!--    </div>-->
-<!--</section>-->
-
-<!--</main>-->
-
-
-<!--</body>-->
-
-<!--</html>-->
-
-
 <body>
-<div class="hero">
+<section class="hero">
     <!-- Background layers -->
-    <canvas id="bg-canvas"></canvas>
-    <canvas id="noise-canvas"></canvas>
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
 
     <!-- Hero content -->
     <div class="hero-content">
-        <h1>Your Name</h1>
-        <p>Designer • Developer • Creator</p>
-        <a href="#projects" class="btn">See My Work</a>
+        <h1>Euphrates Gilpin</h1>
+        <p>Comp Sci Student • Gamer</p>
+        <a href="#about" class="btn">My Work</a>
     </div>
-</div>
+</section>
 
-<script src="script.js"></script>
+<section id="about" class="about">
+    <h2>Find Me Online</h2>
+    <div class="about-grid">
+        <a href="https://instagram.com/euphrates_gx" class="about-card">
+            <div class="icon"><i class="fab fa-instagram"></i></div>
+            <h3>@euphrates_gx</h3>
+            <p>Instagram</p>
+            <img src="images/you1.jpg" alt="Instagram Profile">
+        </a>
+
+        <a href="https://linkedin.com/in/yourhandle" class="about-card">
+            <div class="icon"><i class="fab fa-linkedin"></i></div>
+            <h3>Euphrates Gilpin</h3>
+            <p>LinkedIn</p>
+            <img src="images/you2.jpg" alt="LinkedIn Profile">
+        </a>
+
+        <a href="https://github.com/yourhandle" class="about-card">
+            <div class="icon"><i class="fab fa-github"></i></div>
+            <h3>euphratesgilpin</h3>
+            <p>GitHub</p>
+            <img src="images/you3.jpg" alt="GitHub Profile">
+        </a>
+    </div>
+</section>
+
 </body>
 </html>
