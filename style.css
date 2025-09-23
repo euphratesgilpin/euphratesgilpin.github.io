@@ -23,9 +23,14 @@ html, body {
 #bg-canvas {
     position: fixed;
     top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+    width: 100%; height: 100%;
+    z-index: 0;            /* used to be -1 (hidden behind body bg) */
+    pointer-events: none;  /* allow clicks through */
+}
+
+.hero, .about {
+    position: relative;
+    z-index: 2;  /* ensures content sits above the canvas */
 }
 
 /* Content */
