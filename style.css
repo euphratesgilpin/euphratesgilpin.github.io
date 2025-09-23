@@ -145,20 +145,20 @@ html {
 }
 
 /* Default white icons */
-.profile-card .icon i {
+.about-card .icon i {
     color: white;
     transition: color 0.3s ease;
 }
 
 /* Brand hover colors */
-.profile-card:hover .fa-instagram {
+.about-card:hover .fa-instagram {
     color: #E1306C; /* Instagram pink */
 }
 
-.profile-card:hover .fa-linkedin {
+.about-card:hover .fa-linkedin {
     color: #0A66C2; /* LinkedIn blue */
 }
 
-.profile-card:hover .fa-github {
+.about-card:hover .fa-github {
     color: #6e5494; /* GitHub purple */
 }
