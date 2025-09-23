@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
     target.textContent = ""; // clear first
     type();
 
-
 });
 
 const canvas = document.getElementById("bg-canvas");
