@@ -1,1 +1,6 @@
-
+TODO
+- move hero section to left
+- add my links to the right
+- make dynamic so links go below on mobile
+- make second page for projects ?
+- remove about page, no need for this
