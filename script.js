@@ -37,14 +37,12 @@ function draw() {
 
     ctx.clearRect(0, 0, width, height);
 
-    // Gradient background
     const grad = ctx.createLinearGradient(0, 0, width, height);
     grad.addColorStop(0, "#0a0a0a");
-    grad.addColorStop(1, "#1a1a2e");
+    grad.addColorStop(1, "#a10089");
     ctx.fillStyle = grad;
     ctx.fillRect(0, 0, width, height);
 
-    // Wavy lines
     for (let i = 0; i < 6; i++) {
         ctx.beginPath();
         ctx.moveTo(0, height / 2);
@@ -56,7 +54,7 @@ function draw() {
             ctx.lineTo(x, y);
         }
 
-        ctx.strokeStyle = `rgba(255,255,255,${0.05 + i * 0.02})`;
+        ctx.strokeStyle = `rgba(255,0,150,${0.05 + i * 0.02})`;
         ctx.lineWidth = 1.5;
         ctx.stroke();
     }
