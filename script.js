@@ -39,7 +39,7 @@ function draw() {
 
     const grad = ctx.createLinearGradient(0, 0, width, height);
     grad.addColorStop(0, "#0a0a0a");
-    grad.addColorStop(1, "#a10089");
+    grad.addColorStop(1, "#43003b");
     ctx.fillStyle = grad;
     ctx.fillRect(0, 0, width, height);
 
