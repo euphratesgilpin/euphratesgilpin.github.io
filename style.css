@@ -158,9 +158,6 @@ html, body {
 }
 
 /* Brand hover colors */
-.about-card:hover .fa-instagram {
-    color: #E1306C; /* Instagram pink */
-}
 
 .about-card:hover .fa-linkedin {
     color: #0A66C2; /* LinkedIn blue */
